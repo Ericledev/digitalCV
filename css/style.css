@@ -17,7 +17,7 @@ body a{
 }
 #banner{
     background-position-x: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/banner.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://ericledev.github.io/digitalCV/images/banner.jpg");
     height: 420px;
     color: #f7f7f7;
     text-align: center;
