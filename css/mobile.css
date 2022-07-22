@@ -1,0 +1,127 @@
+
+@media (max-width:576px) {
+
+/* ******************  BANNER  ****************** */
+    #banner{
+       height: 600px;
+    }
+
+/* *************************** CSS NAVIGATION BAR *************************** */
+    .navbar a:nth-child(2),
+    .navbar a:nth-child(5){
+        border-right: none;
+    }  
+    .navbar .navbar-brand{
+        margin-right: 0;
+           border-left: none;
+    } 
+    .navbar .container-fluid{
+        display: flex;
+        flex-direction: column;
+        align-items: self-start;
+    }
+
+/* ********************** SECTION ABOUT *********************** */
+
+    #target,
+    #personal-info{
+        width: 100%;
+     }
+     #about{
+        font-size: 12px;
+        line-height: 1.6;
+       
+    }
+    
+    #about h1{
+        padding-bottom: 32px;
+        font-size: 24px;
+    }
+    /* INFO */
+    #job-info li::marker {
+        font-size: large;
+    }
+    #job-info .component{
+        width: 100%;
+        margin: 0;
+    }
+    #job-info .toggle-tablet{
+        display: none;
+    }
+    #job-info .toggle-mobile{
+        display: flex;
+    }
+
+/* CERTIFICATE */
+    #certificate .container {
+        padding: 30px 20px;
+    }
+    #certificate .row{
+        flex-direction: column;
+    }
+    #certificate .item{
+        width: 100%;
+    }
+    .certificate-items > .item > .first-item {
+        border-right: none;
+    }
+    .certificate-items .item-content {
+        align-items: center;
+    }
+   /* PROJECT */
+   #project .row{
+        flex-direction: column;
+   }
+   .project-item{
+        width: 100%;
+   }
+    .project-item .info{
+        height: 50vh;
+    }
+
+    .project-item .time-line{
+        grid-template-columns: 1fr 2fr 2fr 2fr;
+        align-items: center;
+        justify-items: normal;
+    }
+    .project-item .icon-user-1{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .project-item .content-icon-user-1{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    .project-item .icon-lamp{
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    .project-item .content-icon-lamp{
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+
+
+    /* FOOTER */
+    #footer li{
+        display: none;
+    }
+    #footer i{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+     /* ********************* CSS PROJECT CHARTER ******************************* */
+     #preject-charter-1 .goals li{
+        grid-template-columns: 1fr;
+    }
+    #preject-charter-1 .goals svg{
+        display: none;
+    }
+
+    #preject-charter-1 .team ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
